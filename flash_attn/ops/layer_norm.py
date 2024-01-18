@@ -1,6 +1,6 @@
 # Copyright (c) 2022, Tri Dao.
 # Adapted from https://github.com/NVIDIA/apex/blob/master/apex/contrib/layer_norm/layer_norm.py
-
+# Deprecated as discussed in issue #759: https://github.com/Dao-AILab/flash-attention/issues/759. Use the Triton-based implementation instead.
 import dropout_layer_norm
 import torch
 from torch.nn import init
